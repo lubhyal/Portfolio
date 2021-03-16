@@ -40,7 +40,15 @@ main {
 .background-secondary {
   background:#1a237e;
 }
-
+.bg-darked{
+  background:rgb(22, 22, 22);
+}
+.bg-light{
+  color: #fff;
+}
+.hmm{
+  color:#1a237e;
+}
 .large {
   font-size: 4em;
 }
