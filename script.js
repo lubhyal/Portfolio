@@ -1,4 +1,3 @@
-// Smooth Scrolling for internal links
 $('a[href^="#"]').on("click",function (e) {
 	    e.preventDefault();
 
@@ -11,8 +10,6 @@ $('a[href^="#"]').on("click",function (e) {
 	        window.location.hash = target;
 	    });
 	});
-
-// Change background of nav bar on scroll
 $(window).scroll(function() {    
   var scroll = $(window).scrollTop();
   if (scroll > window.innerHeight - 55) {
@@ -21,14 +18,9 @@ $(window).scroll(function() {
       $(".navbar").addClass("transparent");
     }
 });
-
-// Activate scrollspy to highlight nav item when scrolled over
 $("body").scrollspy({target: ".navbar"}) 
-
-// Bind events to open and close portfolio popups
 $(".thumbnail-overlay").on("click", openProject.bind( this ))
 $(".close-window").on("click", closeWindow.bind(this))
-
 function openProject( event ) {
   if ( $(event.target).next(".thumbnail-overlay") ) {
     var id =  "#" + $(event.target).parent().attr("page");
