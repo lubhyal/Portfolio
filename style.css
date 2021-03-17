@@ -5,12 +5,12 @@ main {
 }
 
 ::-moz-selection {
-  background: #1a237e;
+  background: #6a1b9a;
   color: #fff;
 }
 
 ::selection {
-  background: #1a237e;
+  background: #6a1b9a;
   color: #fff;
 }
 
@@ -28,17 +28,17 @@ main {
 }
 
 .photo-cover {
-  background: #0c1620 url(https://wallpapercave.com/wp/wp4667228.jpg) no-repeat center center/cover fixed;
+  background: #0c1620 url(bg.png) no-repeat center center/cover fixed;
   height: 100%;
   position: relative;
 }
 
 .background-primary {
-  background: #1a237e;
+  background: #6a1b9a;
 }
 
 .background-secondary {
-  background:#1a237e;
+  background:#6a1b9a;
 }
 .bg-darked{
   background:rgb(22, 22, 22);
@@ -47,7 +47,7 @@ main {
   color: #fff;
 }
 .hmm{
-  color:#1a237e   ;
+  color:#6a1b9a   ;
 }
 .large {
   font-size: 4em;
